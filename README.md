@@ -14,7 +14,36 @@
    É um servidor que armazena o repositorio dos projetos.
 
  ### O que é Repositorio ❓
-   É onde o codigo poderá ser armazenado
+   * É onde o codigo poderá ser armazenado
+   * Na maioria das vezes cada projeto tem um repositorio
+   * Cada desenvolvedor do time pode baixar o repositorio e criar versões diferentes em sua máquina;
+   
+ ### Comandinhos 
+  Criar repositorio:
+  
+     git init
 
- ### 🗂️ Projeto - 
+  Verificar mudanças do projeto pode ser udado:
+  
+     git status 
+  Para adicionar arquivos novos a um projeto:
+
+     git add
+
+  Para salvar alteração do projeto:
+
+     git commit
+
+  Commitar arquivos especificos
+
+     git commit nomedoarquivo -a
+
+ Para adicionar uma mensagem basta informar a flag -m
+
+ Para enviar o codigo para um repositorio 
+
+    git push
+
+ 
+ 
  ##
